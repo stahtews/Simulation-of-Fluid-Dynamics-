@@ -1,6 +1,7 @@
 # Simulation-of-Fluid-Dynamics-
 Parallelizing Wave Diffusion with MPI and OpenMP
-The focus of assignment 2 is to parallelize the serial 2D Wave program which diffuses along x and y axis
+
+The focus is to parallelize the serial 2D Wave program which diffuses along x and y axis
 using Hybrid of MPI and OpenMP strategies . The height of Wave at any point in time t is calculated
 using Schroedinger’s wave dissemination algorithm by using Z[t-1], Z[t-2] and neighboring point
 values.
